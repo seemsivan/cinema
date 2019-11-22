@@ -1,1 +1,1 @@
-COMING SOON
+from .core import CinemaParser

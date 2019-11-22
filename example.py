@@ -1,1 +1,3 @@
-привет, скоро тут будет что-то интересное)))
+from cinemaparse import CinemaParser
+
+spb_parser = CinemaParser('spb')
