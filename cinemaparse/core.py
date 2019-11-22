@@ -73,7 +73,7 @@ class CinemaParser:
 if __name__ == '__main__':
     msk_parser = CinemaParser('msk')
     spb_parser = CinemaParser('spb')
-    '''msk_parser.extract_raw_content()
-    msk_parser.print_raw_content()'''
+    #msk_parser.extract_raw_content()
+    #msk_parser.print_raw_content()
     print(msk_parser.get_film_nearest_session('ford против Ferrari    '))
     print(spb_parser.get_film_nearest_session('Ford против Ferrari'))
